@@ -99,7 +99,7 @@ Local Control feature is optional but enabled by default. It can be disabled fro
 ### Scheduling
 
  Schedules allow you to automate a device by setting it to trigger an action at the same time on a specified day or days of the week.  List of operations that are supported for scheduling :
- 
+
  - Add.
  - Edit.
  - Remove.
@@ -111,7 +111,7 @@ Schedule feature is optional but enabled by default. Schedule can be disabled fr
 
  Scene is a group of parameters with specific values, for one or more devices (optionally) spanning across multiple nodes. As an example, an "Evening" scene may turn on all the lights and set them to a warm colour. A "Night" scene may turn off all the lights, turn on a bedside lamp set to minimal brightness and turn on the fan/ac. 
  List of operations that are supported for scene :
- 
+
  - Add.
  - Edit.
  - Remove.
@@ -129,7 +129,7 @@ Node Grouping allows you to create abstract or logical groups of devices like li
  - List groups.
 
 Node Grouping is optional but enabled by default. It can be disabled from the `Configuration.plist` by setting `Enable Grouping` key from `App Configuration` to `NO`.
-  
+
   ### Node Sharing
 
   Node Sharing allows a user to share nodes with other registered users and allow them to monitor and control these nodes.
@@ -173,7 +173,7 @@ ESPRainMaker app supports remote notifiations in order to notify app in realtime
    - Existing node is removed from the user account.
    - Node sharing request is accepted/declined by secondary user.
    - Alerts triggered from the node.
- 
+
 2. Actionable notification: In case a node sharing request is received, user will be be alerted with an actionable notification. This will enable the user to accept or decline the sharing request from the notification center.
 
 3. Silent notifications: This notification is triggered at the time when any of the user device param changes. It will update the app with latest param value in case when app is in foreground.
